@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/media/00343df4-04ec-4efe-a035-955c5ae83551/www/ma-region.ca/trunk/maregion/website/templates'
+let g:netrw_dirhist_2='/home/dom/www/cpielite.com/contrib/centris/management/commands'
+let g:netrw_dirhist_3='/home/dom/www/geodeals/trunk/geodeals/website'
+let g:netrw_dirhist_4='/home/dom/www/assur-experts.ca/trunk/assur-experts/.svn'
+let g:netrw_dirhist_5='/home/dom/www/cpielite.com/branches/duked/cpielite.com/website'
+let g:netrw_dirhist_6='/home/dom/www/teamlawlor.com/trunk/teamlawlor.com/src/django-centris/centris/models'
