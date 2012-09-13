@@ -12,21 +12,21 @@ syntax enable
 set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    "colorscheme xoria256 
-    "colorscheme peaksea
-    colorscheme jellybeans
+    colorscheme xoria256 
+    "colorscheme jellybeans
+    "colorscheme hybrid 
     "colorscheme wombat256
+    "colorscheme xterm16
     "colorscheme lucius 
-    "let g:lucius_style= ""dark_dim"
+    "let g:lucius_style= "dark_dim"
     "colorscheme solarized 
 
     set guifont=Inconsolata\ 12
 else
     set t_Co=256
-    "colorscheme xoria256
+    colorscheme xoria256
     "colorscheme wombat256
-    colorscheme jellybeans
-    set guifont=Terminus\ 12
+    "colorscheme jellybeans
     "colorscheme muon 
 endif
 
@@ -195,12 +195,6 @@ nmap <silent> <leader>n :silent :nohlsearch<CR>
 "allow deleting selection without updating the clipboard (yank buffer)
 "vnoremap x "_x
 "vnoremap X "_X
-
-
-"Use the X selection clipboard
-if has("gui_running")
-    set clipboard=unnamed
-endif
 
 
 " Don't move the cursor after pasting
