@@ -12,13 +12,14 @@ syntax enable
 set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    colorscheme xoria256 
+    colorscheme twilight
+    "colorscheme xoria256 
     "colorscheme jellybeans
     "colorscheme hybrid 
     "colorscheme wombat256
     "colorscheme xterm16
     "colorscheme lucius 
-    "let g:lucius_style= "dark_dim"
+    "let g:lucius_style= ""dark_dim"
     "colorscheme solarized 
 
     set guifont=Inconsolata\ 12
