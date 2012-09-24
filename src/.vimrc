@@ -12,8 +12,9 @@ syntax enable
 set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    colorscheme twilight
-    "colorscheme xoria256 
+    "colorscheme twilight
+    colorscheme xoria256 
+    "colorscheme zenburn 
     "colorscheme jellybeans
     "colorscheme hybrid 
     "colorscheme wombat256
@@ -22,7 +23,7 @@ if has("gui_running")
     "let g:lucius_style= ""dark_dim"
     "colorscheme solarized 
 
-    set guifont=Inconsolata\ 12
+    set guifont=Inconsolata\ 11
 else
     set t_Co=256
     colorscheme xoria256
