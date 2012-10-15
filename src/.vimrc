@@ -23,7 +23,7 @@ if has("gui_running")
     "let g:lucius_style= ""dark_dim"
     "colorscheme solarized 
 
-    set guifont=Inconsolata\ 11
+    set guifont=Inconsolata\ 12
 else
     set t_Co=256
     colorscheme xoria256
