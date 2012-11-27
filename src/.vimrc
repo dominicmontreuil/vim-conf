@@ -9,7 +9,7 @@ autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 
 " We put syntax highlighting (COLORS!!)
 syntax enable
-set bg=dark
+"set bg=dark
 " can I has my colors plz "
 if has("gui_running")
     "colorscheme twilight
@@ -19,11 +19,11 @@ if has("gui_running")
     "colorscheme hybrid 
     "colorscheme wombat256
     "colorscheme xterm16
-    "colorscheme lucius 
-    "let g:lucius_style= ""dark_dim"
-    "colorscheme solarized 
+    "colorscheme miko
 
-    set guifont=Inconsolata\ 12
+
+    "set guifont=Inconsolata\ 12
+    set guifont=Terminus\ 12
 else
     set t_Co=256
     colorscheme xoria256
@@ -135,7 +135,7 @@ set smartcase
 set title
 
 " Make the scrolling three lines before the border, keeping more context around where you’re working. "
-set scrolloff=3
+set scrolloff=1
 
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
