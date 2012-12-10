@@ -13,7 +13,9 @@ syntax enable
 " can I has my colors plz "
 if has("gui_running")
     "colorscheme twilight
-    colorscheme xoria256 
+    "colorscheme xoria256 
+    colorscheme solarized 
+    set background=dark
     "colorscheme zenburn 
     "colorscheme jellybeans
     "colorscheme hybrid 
@@ -22,11 +24,13 @@ if has("gui_running")
     "colorscheme miko
 
 
-    "set guifont=Inconsolata\ 12
-    set guifont=Terminus\ 12
+    set guifont=Inconsolata\ 12
+    "set guifont=Terminus\ 12
 else
     set t_Co=256
-    colorscheme xoria256
+    "colorscheme xoria256
+    colorscheme solarized 
+    set background=dark
     "colorscheme wombat256
     "colorscheme jellybeans
     "colorscheme muon 
