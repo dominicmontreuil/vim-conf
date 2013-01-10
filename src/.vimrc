@@ -14,14 +14,17 @@ syntax enable
 if has("gui_running")
     "colorscheme twilight
     "colorscheme xoria256 
-    colorscheme solarized 
-    set background=dark
+
+    "colorscheme solarized 
+    "set background=dark
+
     "colorscheme zenburn 
     "colorscheme jellybeans
     "colorscheme hybrid 
     "colorscheme wombat256
     "colorscheme xterm16
     "colorscheme miko
+    colorscheme inkpot
 
 
     set guifont=Inconsolata\ 12
@@ -29,8 +32,11 @@ if has("gui_running")
 else
     set t_Co=256
     "colorscheme xoria256
-    colorscheme solarized 
-    set background=dark
+
+    "colorscheme solarized 
+    "set background=dark
+
+    colorscheme inkpot
     "colorscheme wombat256
     "colorscheme jellybeans
     "colorscheme muon 
