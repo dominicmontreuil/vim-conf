@@ -13,33 +13,28 @@ syntax enable
 " can I has my colors plz "
 if has("gui_running")
     "colorscheme twilight
-    "colorscheme xoria256 
+    colorscheme xoria256 
 
     "colorscheme solarized 
     "set background=dark
 
-    "colorscheme zenburn 
-    "colorscheme jellybeans
     "colorscheme hybrid 
     "colorscheme wombat256
     "colorscheme xterm16
-    "colorscheme miko
-    colorscheme inkpot
+    "colorscheme inkpot
 
 
     set guifont=Inconsolata\ 12
     "set guifont=Terminus\ 12
 else
     set t_Co=256
-    "colorscheme xoria256
+    "colorscheme twilight
+    colorscheme xoria256
 
     "colorscheme solarized 
     "set background=dark
 
-    colorscheme inkpot
-    "colorscheme wombat256
-    "colorscheme jellybeans
-    "colorscheme muon 
+    "colorscheme inkpot
 endif
 
 " compatible.  You want to use Vim, not vi
