@@ -175,10 +175,13 @@ endif
 highlight Pmenu ctermfg=0 ctermbg=3
 highlight PmenuSel ctermfg=0 ctermbg=7
 
-"if v:version >= 700
-"    set cursorline   "highlight current line
-"    set cursorcolumn "highlight current column
-"endif
+if v:version >= 700
+    set cursorline   "highlight current line
+    "set cursorcolumn "highlight current column
+endif
+
+set colorcolumn=80
+highlight colorcolumn ctermbg=233
 
 " Syntax highlighting if appropriate "
 if &t_Co > 2 || has("gui_running")
