@@ -24,7 +24,12 @@ if has("gui_running")
     "colorscheme inkpot
 
 
-    set guifont=Inconsolata\ 12
+    if has("win32")
+        set guifont=Source_Code_Pro:h12:cANSI
+    else
+        set guifont=Source\ Code\ Pro\ 10
+    end if
+    "set guifont=Inconsolata\ 12
     "set guifont=Terminus\ 12
 else
     set t_Co=256
