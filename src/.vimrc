@@ -28,7 +28,7 @@ if has("gui_running")
         set guifont=Source_Code_Pro:h12:cANSI
     else
         set guifont=Source\ Code\ Pro\ 10
-    end if
+    endif
     "set guifont=Inconsolata\ 12
     "set guifont=Terminus\ 12
 else
