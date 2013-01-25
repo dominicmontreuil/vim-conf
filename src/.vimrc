@@ -185,8 +185,9 @@ if v:version >= 700
     "set cursorcolumn "highlight current column
 endif
 
-set colorcolumn=80
-highlight colorcolumn ctermbg=233
+"If you need or want vertical lines to mark a specific column
+"set colorcolumn=80,120
+"highlight colorcolumn ctermbg=233
 
 " Syntax highlighting if appropriate "
 if &t_Co > 2 || has("gui_running")
@@ -288,3 +289,4 @@ set noerrorbells
 " Hide the mouse pointer while typing
 set mousehide
 
+python from powerline.bindings.vim import source_plugin; source_plugin()
