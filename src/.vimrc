@@ -289,4 +289,4 @@ set noerrorbells
 " Hide the mouse pointer while typing
 set mousehide
 
-python from powerline.bindings.vim import source_plugin; source_plugin()
+"python from powerline.bindings.vim import source_plugin; source_plugin()
