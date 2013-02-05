@@ -13,7 +13,7 @@ syntax enable
 " can I has my colors plz "
 if has("gui_running")
     "colorscheme twilight
-    colorscheme xoria256 
+    colorscheme dusk 
 
     "colorscheme solarized 
     "set background=dark
@@ -34,7 +34,7 @@ if has("gui_running")
 else
     set t_Co=256
     "colorscheme twilight
-    colorscheme xoria256
+    colorscheme dusk
 
     "colorscheme solarized 
     "set background=dark
