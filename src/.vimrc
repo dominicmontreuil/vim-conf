@@ -13,10 +13,9 @@ syntax enable
 " can I has my colors plz "
 if has("gui_running")
     "colorscheme twilight
-    colorscheme dusk 
 
-    "colorscheme solarized 
-    "set background=dark
+    colorscheme solarized 
+    set background=light
 
     "colorscheme hybrid 
     "colorscheme wombat256
@@ -34,10 +33,9 @@ if has("gui_running")
 else
     set t_Co=256
     "colorscheme twilight
-    colorscheme dusk
 
-    "colorscheme solarized 
-    "set background=dark
+    colorscheme solarized 
+    set background=light
 
     "colorscheme inkpot
 endif
