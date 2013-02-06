@@ -12,10 +12,10 @@ syntax enable
 "set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    "colorscheme twilight
+    colorscheme twilight
 
-    colorscheme solarized 
-    set background=light
+    "colorscheme solarized 
+    "set background=light
 
     "colorscheme hybrid 
     "colorscheme wombat256
@@ -32,10 +32,10 @@ if has("gui_running")
     "set guifont=Terminus\ 12
 else
     set t_Co=256
-    "colorscheme twilight
+    colorscheme twilight
 
-    colorscheme solarized 
-    set background=light
+    "colorscheme solarized 
+    "set background=light
 
     "colorscheme inkpot
 endif
