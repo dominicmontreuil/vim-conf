@@ -290,3 +290,10 @@ set noerrorbells
 set mousehide
 
 "python from powerline.bindings.vim import source_plugin; source_plugin()
+
+
+
+"ctags
+let g:ctags_statusline=1
+let g:generate_tags=1
+let g:ctags_regenerate=1
