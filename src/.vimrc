@@ -12,12 +12,13 @@ syntax enable
 "set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    "colorscheme twilight
-
     "colorscheme solarized 
     "set background=light
-    colorscheme molokai
+
+    "colorscheme molokai
     "let g:molokai_original = 1
+
+    colorscheme Moff
 
     "colorscheme hybrid 
     "colorscheme wombat256
@@ -34,7 +35,7 @@ if has("gui_running")
     "set guifont=Terminus\ 12
 else
     set t_Co=256
-    colorscheme twilight
+    colorscheme Moff
 
     "colorscheme solarized 
     "set background=light
