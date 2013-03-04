@@ -15,10 +15,10 @@ if has("gui_running")
     "colorscheme solarized 
     "set background=light
 
-    "colorscheme molokai
+    colorscheme molokai
     "let g:molokai_original = 1
 
-    colorscheme Moff
+    "colorscheme Moff
 
     "colorscheme hybrid 
     "colorscheme wombat256
@@ -35,12 +35,12 @@ if has("gui_running")
     "set guifont=Terminus\ 12
 else
     set t_Co=256
-    colorscheme Moff
+    "colorscheme Moff
 
     "colorscheme solarized 
     "set background=light
 
-    "colorscheme inkpot
+    colorscheme xoria256
 endif
 
 " compatible.  You want to use Vim, not vi
