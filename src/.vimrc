@@ -12,24 +12,24 @@ syntax enable
 "set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    "colorscheme solarized 
-    "set background=light
+    colorscheme solarized 
+    set background=dark
 
-    colorscheme molokai
-    let g:molokai_original = 1
+   "colorscheme molokai
+   "let g:molokai_original = 1
 
-    "colorscheme Moff
+   "colorscheme Moff
 
-    "colorscheme hybrid 
-    "colorscheme wombat256
-    "colorscheme xterm16
-    "colorscheme inkpot
+   "colorscheme hybrid 
+   "colorscheme wombat256
+   "colorscheme xterm16
+   "colorscheme inkpot
 
 
     if has("win32")
         set guifont=Source_Code_Pro:h11:cANSI
     else
-        set guifont=Source\ Code\ Pro\ 11
+        set guifont=Source\ Code\ Pro\ 10
     endif
     "set guifont=Inconsolata\ 12
     "set guifont=Terminus\ 12
@@ -291,9 +291,9 @@ set noerrorbells
 set mousehide
 
 "python from powerline.bindings.vim import source_plugin; source_plugin()
-set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
-set laststatus=2
-set ambiwidth=single
+"set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
+"set laststatus=2
+"set ambiwidth=single
 
 
 "ctags
