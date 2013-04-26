@@ -27,9 +27,11 @@ if has("gui_running")
 
 
     if has("win32")
-        set guifont=Source_Code_Pro:h11:cANSI
+       "set guifont=Source_Code_Pro:h11:cANSI
+        set guifont=PragmataPro:h11:cANSI
     else
-        set guifont=Source\ Code\ Pro\ 10
+       "set guifont=Source\ Code\ Pro\ 10
+        set guifont=PragmataPro\ 11
     endif
     "set guifont=Inconsolata\ 12
     "set guifont=Terminus\ 12
