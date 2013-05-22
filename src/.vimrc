@@ -12,11 +12,11 @@ syntax enable
 "set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-    colorscheme solarized 
-    set background=dark
+   "colorscheme solarized 
+   "set background=dark
 
-   "colorscheme molokai
-   "let g:molokai_original = 1
+    colorscheme molokai
+    let g:molokai_original = 1
 
    "colorscheme Moff
 
