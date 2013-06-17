@@ -12,15 +12,11 @@ syntax enable
 "set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-   colorscheme corporation
    "colorscheme molokai
    "let g:molokai_original = 1
 
-   "colorscheme Moff
 
-   "colorscheme hybrid 
-   "colorscheme wombat256
-   "colorscheme xterm16
+   colorscheme wombat256
    "colorscheme inkpot
    
 
