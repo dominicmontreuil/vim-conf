@@ -16,8 +16,8 @@ if has("gui_running")
    "let g:molokai_original = 1
 
 
-   colorscheme wombat256
-   "colorscheme inkpot
+   "colorscheme wombat256
+   colorscheme inkpot
    
 
    " Set colorscheme to solarized
