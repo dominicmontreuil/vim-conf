@@ -12,12 +12,12 @@ syntax enable
 "set bg=dark
 " can I has my colors plz "
 if has("gui_running")
-   "colorscheme molokai
+   colorscheme molokai
    "let g:molokai_original = 1
 
 
    "colorscheme wombat256
-   colorscheme inkpot
+   "colorscheme inkpot
    
 
    " Set colorscheme to solarized
@@ -316,6 +316,8 @@ set mousehide
 
 "python from powerline.bindings.vim import source_plugin; source_plugin()
 "set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
+"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+"set encoding=utf-8
 "set laststatus=2
 "set ambiwidth=single
 

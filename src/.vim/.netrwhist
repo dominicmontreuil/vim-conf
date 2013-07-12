@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/usr/share/X11/xkb/symbols'
 let g:netrw_dirhist_2='/home/dom/www/vieuxcanal.com/trunk/vieuxcanal.com/website/templates'
 let g:netrw_dirhist_3='/home/dom/www/fleuristevalleyfield.ca/trunk/fleuristevalleyfield.ca/website/templates'
+let g:netrw_dirhist_4='/home/dom/www/fleuristevalleyfield.ca/trunk/fleuristevalleyfield.ca/ordering/templates'
