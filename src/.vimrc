@@ -11,12 +11,10 @@ set showmatch
 syntax enable
 
 if has("gui_running")
-   "colorscheme ironman
-   "
-   colorscheme tomorrow
-   set bg=light
-   "
-   "colorscheme molokai
+   "colorscheme tomorrow
+   "set bg=light
+   
+   colorscheme molokai
    "let g:molokai_original = 1
 
     if has("win32")
@@ -26,9 +24,7 @@ if has("gui_running")
     endif
 else
     set t_Co=256
-    colorscheme tomorrow
-    set bg=dark
-    "colorscheme xoria256
+    colorscheme molokai
 endif
 
 set expandtab
@@ -37,6 +33,9 @@ set shiftwidth=4
 set tabstop=4
 
 set nowrap
+
+" Show line numbers
+set number
 
 " Highlight Search
 set hls
