@@ -14,7 +14,8 @@ if has("gui_running")
    "colorscheme tomorrow
    "set bg=light
    
-   colorscheme molokai
+   colorscheme railscasts
+   "colorscheme molokai
    "let g:molokai_original = 1
 
     if has("win32")
@@ -24,7 +25,7 @@ if has("gui_running")
     endif
 else
     set t_Co=256
-    colorscheme molokai
+    colorscheme railscasts
 endif
 
 set expandtab
