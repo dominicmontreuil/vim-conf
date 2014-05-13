@@ -14,9 +14,8 @@ if has("gui_running")
    "colorscheme tomorrow
    "set bg=light
    
-   colorscheme railscasts
-   "colorscheme molokai
-   "let g:molokai_original = 1
+   colorscheme molokai
+   let g:molokai_original = 1
 
     if has("win32")
         set guifont=PragmataPro:h11:cANSI
