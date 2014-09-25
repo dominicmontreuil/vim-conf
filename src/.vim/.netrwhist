@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/usr/share/X11/xkb/symbols'
 let g:netrw_dirhist_2='/home/dom/www/vieuxcanal.com/trunk/vieuxcanal.com/website/templates'
 let g:netrw_dirhist_3='/home/dom/www/fleuristevalleyfield.ca/trunk/fleuristevalleyfield.ca/website/templates'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/dom/www/fleuristevalleyfield.ca/trunk/fleuristevall
 let g:netrw_dirhist_5='/home/mond/dev/jobboss/EDI/.git'
 let g:netrw_dirhist_6='/usr/share/gnucash/guile-modules/gnucash/report/standard-reports'
 let g:netrw_dirhist_7='/home/mond/htdocs/richer_extranet/wp-content/plugins/contact-form-7'
+let g:netrw_dirhist_8='/home/mond/dev/vbgotf/new_base/new_base_from_OTF/js'

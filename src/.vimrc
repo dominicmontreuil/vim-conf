@@ -1,3 +1,6 @@
+scriptencoding utf-8
+set encoding=utf-8
+
 call pathogen#infect()
 
 " filetypes
@@ -20,11 +23,13 @@ if has("gui_running")
     if has("win32")
         set guifont=PragmataPro:h11:cANSI
     else
-        set guifont=PragmataPro\ 11
+        set guifont=PragmataPro\ 10
     endif
 else
     set t_Co=256
-    colorscheme railscasts
+    "colorscheme railscasts
+    colorscheme molokai
+    let g:molokai_original = 1
 endif
 
 set expandtab
