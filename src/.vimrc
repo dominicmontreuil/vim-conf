@@ -17,8 +17,10 @@ if has("gui_running")
    "colorscheme solarized
    "set bg=dark
 
-   colorscheme molokai
-   let g:molokai_original = 1
+   "colorscheme molokai
+   "let g:molokai_original = 1
+
+   colorscheme badwolf
 
     if has("win32")
         set guifont=PragmataPro:h11:cANSI
