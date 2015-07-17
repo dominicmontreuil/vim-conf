@@ -20,12 +20,12 @@ if has("gui_running")
    "colorscheme molokai
    "let g:molokai_original = 1
 
-   colorscheme badwolf
+   colorscheme atom-dark
 
     if has("win32")
-        set guifont=PragmataPro:h11:cANSI
+        set guifont=Inconsolata:h11:cANSI
     else
-        set guifont=PragmataPro\ 10
+        set guifont=Inconsolata\ 10
     endif
 else
     set t_Co=256
